@@ -1,0 +1,11 @@
+FMFadeInPage01 Component Library Folder
+
+The purpose for this folder is to serve as a known 
+storage location that contains the latest versions of 
+all files, documentation and other assets for the 
+FMFadeInPage01 component. 
+
+Developers will be directed to go to this folder to get 
+the assets and documentation that is needed to install 
+this component into a web app that they are required to 
+develop. 
