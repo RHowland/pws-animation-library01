@@ -1,0 +1,122 @@
+FMHoverGro01_Docs.txt
+---------------------
+   This file contains documentation for the FMHoverGrow01 
+   component.  
+
+   ------------------------------------------------------------------
+   What Does This Component Do?
+   ----------------------------
+   This component will cause the wrapped child components, 
+   usually a button or a card, to grow larger when the mouse 
+   pointer hovers over the button or card.  When the mouse 
+   pointer hovers away from that item, it will shrink back 
+   to its original size. 
+
+
+   Properties for this component:
+   ------------------------------
+   Property     Property                Property
+   Name         Value                   Description
+   -----------  ----------------------  ----------------------------
+
+
+
+
+
+   How to Configure These Properties
+   ---------------------------------
+   See the FMFadeInSection01Props.ts file for details about how to 
+   configure these properties.
+
+
+
+   What are typical values for these properties?
+   ---------------------------------------------
+
+
+
+
+   Caution Notes
+   --------------------------------
+   (Example: 
+     Do not do this...
+     Make certain, that you do this ...)
+
+
+   Interactions or Conflicts Between Properties?
+   ---------------------------------------------
+
+
+
+   ------------------------------------------------------------------
+   Example Code Section
+   --------------------
+   Provide some example code to show how to install this component.
+
+
+
+
+
+   ------------------------------------------------------------------
+   What You Will Need Section
+   --------------------------
+   Files you will need to install this component:
+   
+   File Name
+   ------------------------------
+   FMHoverGrow01.tsx
+ 
+   FMHoverGrow01Props.ts
+
+
+
+   --------------------------------------------------------
+   Files to Copy Section
+   ---------------------
+
+   File Name                  Copy to this folder path
+   -------------------------  --------------------------------
+   FMHoverGrow01.tsx          src/app/components/animation
+ 
+   FMHoverGrow01Props.ts      src/app/components/animation
+
+
+
+   --------------------------------------------------------
+   How to Install Section
+   ----------------------
+   Do these operations to install this 
+   component:
+
+   1. 
+   2. 
+   3.
+
+
+   --------------------------------------------------------
+   Miscellaneous Notes Section
+   ---------------------------  
+
+
+
+
+   ------------------------------------
+   Troubleshooting Section:
+   ------------------------
+   Describe situations or conditions that can cause this 
+   motion component to either not work at all or to work 
+   incorrectly. 
+
+
+
+   Typical beginner mistakes:
+   --------------------------
+
+
+   Unusual errors:
+   ---------------
+
+
+
+   ==========================================
+   (end of documentation page)

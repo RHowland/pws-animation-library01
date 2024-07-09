@@ -1,0 +1,71 @@
+Framer-Motion Install & Concepts.txt
+
+The purpose of this document is to help a developer, 
+who is new to Framer-Motion to get off to a good 
+start using this library.  
+
+The install is extremely simple and we will cover that 
+below.  
+
+Unfortunately, getting an understanding of how this 
+library works is a little more difficult due to the 
+poor organization of the Framer-Motion documentation.  
+
+So, we have provided a concepts section to, hopefully, 
+help to better understand how to use this library. 
+
+=======================================================
+1. Install Framer-Motion
+
+   Prerequisites:
+   - Next.js starter app using React 18.
+
+   Install Command for React 18 and earlier: 
+     npm install framer-motion   
+
+
+
+   Install Command for React 19:
+     npm install framer-motion@12.0.0-alpha.0
+
+
+   That's it, nothing else to do to install.
+
+
+
+=======================================================
+2. Framer Motion Concepts
+
+We had planned on creating a short but complete overview 
+of the Framer Motion library so we went searching the 
+Internet to try to find some good information.  
+
+However, the following articles and videos will do a much 
+better job at explaining and demonstrating the concepts 
+behind the Frame Motion library. 
+
+
+Helpful Articles:
+-----------------
+Unleashing the Potential of React Framer Motion for React App
+https://www.dhiwise.com/post/unleashing-the-potential-of-react-framer-motion-for-react-app
+
+
+
+
+
+Helpful Videos:
+---------------
+The Framer Motion Crash Course || React Animation Library 2023
+https://www.youtube.com/watch?v=znbCa4Rr054&t=140s
+    
+
+
+
+
+
+
+=======================================================
+(End of Document)
+
+

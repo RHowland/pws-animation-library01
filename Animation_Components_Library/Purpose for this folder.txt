@@ -1,0 +1,12 @@
+Animation Components Library Folder
+
+The purpose for this folder is to serve as a 
+known storage location for CHILD folders that 
+contain a complete set of documentation and 
+files that make up different animation 
+components.  
+
+Developers will be directed to go to the child 
+folders under this folder to get the assets and 
+documentation that are needed to install one of 
+these components into a new web app. 

@@ -7,5 +7,4 @@ the FMFadeInSection01 component.
 
 Developers will be directed to go to this folder 
 to get the assets and documentation that is needed 
-to install this component into a web app that they 
-are required to develop. 
+to install this component into a new web app.

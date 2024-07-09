@@ -1,0 +1,158 @@
+FMFadeInPage01_Docs.txt
+-----------------------
+   This file contains documentation for the FMFadeInPage01 
+   component.  
+
+   ------------------------------------------------------------------
+   What Does This Component Do?
+   ----------------------------
+   This component will cause the wrapped child components 
+   to fade in (as a unit) when the web page is first loaded 
+   or when it is refreshed.
+
+
+   Properties for this component:
+   ------------------------------
+   Property     Property                Property
+   Name         Value                   Description
+   -----------  ----------------------  ----------------------------
+   initial:     { opacity: number };    Initial state of the animation
+   animate:     { opacity: number };    Target state of the animation
+   exit:        { opacity: number };    State when the component exits
+   transition:  { duration: number };   Duration of the transition
+
+
+
+
+
+   How to Configure These Properties
+   ---------------------------------
+   See the FMFadeInPage01Props.ts file for details about how to 
+   configure these properties.
+
+
+   What are typical values for these properties?
+   ---------------------------------------------
+
+
+   Caution Notes:
+   --------------
+   (Example: 
+     Do not do this...
+     Make certain, that you do this ...)
+
+
+
+
+   Interactions or Conflicts Between Properties?
+   ---------------------------------------------
+
+
+
+
+   ------------------------------------------------------------------
+   Example Code Section
+   --------------------
+   Provide some example code to show how to install this component.
+
+
+   To use this component to perform fade in effects on all 
+   web pages in a website, use this component to wrap all 
+   child components in the main layout.tsx file. 
+
+   src/app/layout.tsx            
+
+   return (
+     <html lang='en'>
+       <body className={inter.className}>
+         <FMFadeIn01_Page>
+           <Navbar />
+           {children}
+           <div className=' xl:mt-24'>
+             <Footer />
+           </div>
+         </FMFadeIn01_Page>
+       </body>
+     </html>
+   );  
+
+
+   To use this component to perform fade in effects on 
+   a SINGLE web page, wrap this component around all  
+   child components in the page.tsx file for that web 
+   page. 
+
+   page.tsx  
+
+   return (
+     <main>
+       <FMFadeInPage01>
+          </HeroSection>
+          </FeaturesSection>
+          </CustomerReviewSection>
+          </CallToActioniSection>
+       </FMFadeInPage01>
+     </main>
+   );
+   
+
+   ------------------------------------------------------------------
+   What You Will Need Section
+   --------------------------
+   List all files and any other things that are needed to 
+   properly install this component. 
+
+   Files you will need to install this component:
+   ----------------------------------------------   
+   File Name
+   ------------------------------
+   FMFadeInPage01.tsx
+ 
+   FMFadeInPage01Props.ts
+
+
+   ------------------------------------------------------------------
+   Files to Copy Section
+   ---------------------
+   List all files that are needed to properly install this 
+   component.
+
+   File Name               Copy to this folder path
+   ----------------------  --------------------------------
+   FMFadeInPage01.tsx      src/app/components/animation
+ 
+   FMFadeInPage01Props.ts  src/app/components/animation
+
+
+   ------------------------------------------------------------------
+
+   How to Install Section
+   ----------------------
+   Do these operations to install this 
+   component:
+
+   1. 
+   2. 
+   3.
+  
+   ------------------------------------------------------------------
+   Troubleshooting Section:
+   ------------------------
+   Describe situations or conditions that can cause this 
+   motion component to either not work at all or to work 
+   incorrectly. 
+
+
+   Typical beginner mistakes:
+   --------------------------
+
+
+
+   Unusual errors:
+   ---------------
+
+
+
+
+   ==========================================
+   (end of documentation page)
