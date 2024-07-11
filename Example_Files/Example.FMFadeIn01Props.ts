@@ -1,13 +1,13 @@
-// Component Name: FMFadeIn01Props
+// Component Name: FMFadeInPage01Props
 // 
-export interface FMFadeIn01_PageProps {
+export interface FMFadeInPage01Props {
   initial: { opacity: number };       // Initial state of the animation
   animate: { opacity: number };       // Target state of the animation
   exit: { opacity: number };          // State when the component exits
   transition: { duration: number };   // Duration of the transition
 }
 
-export const FMFadeIn01_PageProps = {
+export const FMFadeInPage01Props = {
   initial: { opacity: 0 },            // Start opacity at 0
   animate: { opacity: 1 },            // End opacity at 1
   exit: { opacity: 0 },               // Exit opacity at 0
@@ -15,8 +15,8 @@ export const FMFadeIn01_PageProps = {
 };
 
 /**
-* File Name      : Example.FMFadeIn01-PageProps.tsx 
-* Component Name : FMFadeIn01_PageProps
+* File Name      : Example.FMFadeInPage01rops.tsx 
+* Component Name : FMFadeInPage01Props
 * Component Type : FramerMotion Fade-in animation
 * Date Created   : 2024-06-20
 * Dev Name       : Rich Howland

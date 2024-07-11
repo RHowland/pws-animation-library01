@@ -1,13 +1,13 @@
-// Component Name: FMFadeIn01_Page
+// Component Name: FMFadeInPage01
 'use client';
 
 import { motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import { ReactNode } from 'react';
 
-import { fadeInProps } from './FMFadeIn01-PageProps';
+import { fadeInProps } from './FMFadeInPage01Props';
 
-export default function FMFadeIn01_Page({ children }: { children: ReactNode }) {
+export default function FMFadeInPage01({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   return (
@@ -25,8 +25,8 @@ export default function FMFadeIn01_Page({ children }: { children: ReactNode }) {
 * =====================================================================
 *   ORIGINAL DOCUMENTATION  (Append to end of component code block)
 * =====================================================================
-* File Name      : FMFadeIn01-Page.tsx
-* Component Name : FMFadeIn01_Page
+* File Name      : FMFadeInPage01.tsx
+* Component Name : FMFadeInPage01
 * Component Type : FramerMotion Fade In component
 * Date Created   : 2024-06-22
 * Dev Name       : Rich Howland
