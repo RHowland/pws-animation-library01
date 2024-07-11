@@ -50,13 +50,13 @@ export default function FMFadeInPage01({ children }: { children: ReactNode }) {
 *  return (
 *    <html lang='en'>
 *      <body className={inter.className}>
-*        <FMFadeIn01_Page>
+*        <FMFadeInPage01>
 *          <Navbar />
 *          {children}
 *          <div className=' xl:mt-24'>
 *            <Footer />
 *          </div>
-*        </FMFadeIn01_Page>
+*        </FMFadeInPage01>
 *      </body>
 *    </html>
 * 
@@ -67,12 +67,12 @@ export default function FMFadeInPage01({ children }: { children: ReactNode }) {
 *
 *  return (
 *    <main>
-*      <FMFadeIn01_Page>
+*      <FMFadeInPage01>
 *         </HeroSection>
 *         </FeaturesSection>
 *         </CustomerReviewSection>
 *         </CallToActioniSection>
-*      </FMFadeIn01_Page>
+*      </FMFadeInPage01>
 *    </main>
 *  );
 * 
