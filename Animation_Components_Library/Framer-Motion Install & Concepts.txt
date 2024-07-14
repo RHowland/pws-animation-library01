@@ -58,7 +58,8 @@ Helpful Videos:
 ---------------
 The Framer Motion Crash Course || React Animation Library 2023
 https://www.youtube.com/watch?v=znbCa4Rr054&t=140s
-    
+
+https://youtu.be/2V1WK-3HQNk?si=eIGmvcnQa0mkTrCh
 
 
 
