@@ -1,25 +1,28 @@
-import React from "react";
-import { Footer } from "@/components/custom-ui/footer/footer";
-import { Navbar } from "@/components/custom-ui/header/navbar/navbar";
-import { Hero } from "@/components/custom-ui/landing-page/hero/hero";
+import React from 'react';
+import { Footer } from '@/components/custom-ui/footer/footer';
+import { Navbar } from '@/components/custom-ui/header/navbar/navbar';
+import { Hero } from '@/components/custom-ui/landing-page/hero/hero';
+import FMFadeInPage01 from '@/components/animation/FMFadeInPage01';
 
 const FMFadeInPage01_DemoPage: React.FC = () => {
   return (
     <>
-      {/* Section 1: Navigation */}
-      <section aria-label="Navigation">
-        <Navbar />
-      </section>
- 
-      {/* Section 2: Hero */}
-      <section aria-label="Hero">
-        <Hero />
-      </section>
+      <FMFadeInPage01>
+        {/* Section 1: Navigation */}
+        <section aria-label='Navigation'>
+          <Navbar />
+        </section>
 
-       {/* Section 3: Footer */}
-      <section aria-label="Footer">
-        <Footer></Footer>
-      </section>
+        {/* Section 2: Hero */}
+        <section aria-label='Hero'>
+          <Hero />
+        </section>
+
+        {/* Section 3: Footer */}
+        <section aria-label='Footer'>
+          <Footer></Footer>
+        </section>
+      </FMFadeInPage01>
     </>
   );
 };

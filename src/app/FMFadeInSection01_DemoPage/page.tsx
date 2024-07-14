@@ -1,37 +1,80 @@
-import React from "react";
-import { Footer } from "@/components/custom-ui/footer/footer";
-import { Navbar } from "@/components/custom-ui/header/navbar/navbar";
-import { Hero } from "@/components/custom-ui/landing-page/hero/hero";
+import React from 'react';
+import { Footer } from '@/components/custom-ui/footer/footer';
+import { Navbar } from '@/components/custom-ui/header/navbar/navbar';
+import { Hero } from '@/components/custom-ui/landing-page/hero/hero';
+import FMFadeInSection01 from '@/components/animation/FMFadeInSection01';
 
 const FMFadeInSection01_DemoPage: React.FC = () => {
   return (
     <>
       {/* Section 1: Navigation */}
-      <section aria-label="Navigation">
+      <section aria-label='Navigation'>
         <Navbar />
       </section>
+
       {/* Section 2: Hero */}
-      <section aria-label="Hero">
-        <Hero />
-      </section>
+      <FMFadeInSection01>
+        <section aria-label='Hero'>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
 
       {/* Section 3: Hero */}
-      <section aria-label="Hero">
-        <Hero />
-      </section>
+      <FMFadeInSection01>
+        <section aria-label='Hero'>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
 
       {/* Section 4: Hero */}
-      <section aria-label="Hero">
-        <Hero />
-      </section>
+      <FMFadeInSection01>
+        <section aria-label='Hero'>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
 
       {/* Section 5: Hero */}
-      <section aria-label="Hero">
-        <Hero />
-      </section>
-      
+      <FMFadeInSection01>
+        <section aria-label='Hero'>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
+
+      {/* Section 6: Hero */}
+      <FMFadeInSection01>
+        <section aria-label='Hero'>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
+
+      {/* Section 7: Hero */}
+      <FMFadeInSection01
+        transition={{ opacity: 0, y: { duration: 3 }, duration: 3 }}>
+        <section aria-label='Hero'>
+          <h1 className='text-red-600 text-center text-xl'>
+            Warning This is the demonstration of Custom Animation duration 3
+            seconds
+          </h1>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
+
+      {/* Section 8: Hero */}
+      <FMFadeInSection01
+        initial={{ opacity: 0, y: 200 }}
+        exit={{ opacity: 0, y: 200 }}
+        transition={{ opacity: 0, y: { duration: 1 }, duration: 1 }}>
+        <section aria-label='Hero'>
+          <h1 className='text-red-600 text-center text-xl'>
+            Warning This is the demonstration of Custom Animation duration 3
+            seconds and y = 300 px
+          </h1>
+          <Hero />
+        </section>
+      </FMFadeInSection01>
+
       {/* Section 3: Footer */}
-      <section aria-label="Footer">
+      <section aria-label='Footer'>
         <Footer></Footer>
       </section>
     </>
